@@ -21,8 +21,8 @@ h2{
 .h4{
   font-family: "Merienda", cursive;
     font-optical-sizing: auto;
-    font-weight : 300;
-    font-style: normal;
+    font-weight : 300; 
+     font-style: normal;
     color: purple;
     }
 #intro button{
@@ -95,8 +95,9 @@ h2{
   
 }
 footer{
-  background-color: white;
-  color: blue;
+  background-color: black;
+  color: lavender;
+  padding: 0% ;
 }
 #clients button{
   background-color: white;
@@ -119,3 +120,8 @@ footer{
   flex-direction: column;
 
 }
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  }
