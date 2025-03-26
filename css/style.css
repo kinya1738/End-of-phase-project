@@ -67,7 +67,7 @@ h4{
 
 #header-image{
   width: 20px;
-  height: 580vh;
+  height: fit-content;
 
 }
  nav{
@@ -79,5 +79,14 @@ h4{
   padding: 8px 15px;
   letter-spacing: 1px;
   gap: 20px;
+  flex-direction: row;
+}
+#clients img{
+  width: 500px;
+  height: 50vh;
+  justify-content: space-between;
+  gap: 50px;
+  
+  align-items: center;
   flex-direction: row;
 }
