@@ -98,3 +98,16 @@ footer{
   background-color: black;
   color: white;
 }
+#clients button{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 2px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#clients button:hover{
+  background-color: aqua;
+  color: black;
+  transform: scale(1.05);
+}
