@@ -119,13 +119,14 @@ footer{
   gap: 5px;
   flex-direction: column;
   font-size: xx-large;
-  color: ;
+  color: whitesmoke;
 
 }
 
 .footer-container{
   display: flex;
   justify-content: space-between;
+  font-size: x-large;
   }
   body{
     background-color: whitesmoke;
