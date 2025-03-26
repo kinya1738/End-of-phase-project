@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     <img src="${wig.image}" alt="${wig.title}">
                     <h3>${wig.title}</h3>
                     <p>${wig.description}</p>
-                    <div>${wig.price}</div>
-                `;
+                    <div class="price">${wig.price}</div>
+                    <div class="rating">Rating: ${wig.reviews?.rating ?? 'No rating available'}</div>
+                    `;
 
                 wigContainer.appendChild(wigImages);
             });
