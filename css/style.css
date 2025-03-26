@@ -18,12 +18,12 @@ h2{
   font-style: normal;
   color:black;
 }
-h4{
+.h4{
   font-family: "Merienda", cursive;
     font-optical-sizing: auto;
     font-weight : 300;
     font-style: normal;
-    color: purple;
+    color: red;
     }
 #intro button{
     background-color: white;
@@ -96,4 +96,5 @@ h4{
 }
 footer{
   background-color: black;
+  color: white;
 }
