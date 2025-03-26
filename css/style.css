@@ -118,10 +118,15 @@ footer{
   align-items: center;
   gap: 5px;
   flex-direction: column;
+  font-size: xx-large;
+  color: ;
 
 }
 
 .footer-container{
   display: flex;
   justify-content: space-between;
+  }
+  body{
+    background-color: whitesmoke;
   }
