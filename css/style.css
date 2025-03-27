@@ -175,5 +175,24 @@ footer{
   margin-top: 10px;   
  
 }
+#simpleForm{
+  display: flex;
+  flex-direction: column;
+  font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight : 300;
+    font-style: normal;
+    background-color: black;
+    gap: 0;
+    padding: 0%;
+  
+}
+#simpleForm h2{
+  color: antiquewhite;
+} 
+#simpleForm button:hover{
+  background-color: darkblue;
+  color: black;
+}
 
 

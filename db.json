@@ -1,124 +1,129 @@
 {
-    "wigs":[
-        {
-            "id": "1",
-            "title": "Black Body wave",
-            "price": "$400",
-            "description": "In a perfect world… we'd all wear couture.",
-            "image": "./images/body-wave.jpg",
-            "reviews": {
-                "rating": 6.1
-            }
-            
+  "wigs": [
+    {
+      "id": "1",
+      "title": "Black Body wave",
+      "price": "$400",
+      "description": "In a perfect world… we'd all wear couture.",
+      "image": "./images/body-wave.jpg",
+      "reviews": {
+        "rating": 6.1
+      }
     },
     {
-        "id": "2",
-        "title": "Brown Bone straight",
-        "price": "$163",
-        "description": " Ensures a secure and comfortable fit.",
-        "image": "./images/bone-straight-brown.jpg",
-        "reviews": {
-            "rating": 9.0
-            
-        }
-},
-{
-    "id": "3",
-    "title": "Maroon Diva wave",
-    "price": "$150",
-    "description": "In a perfect world something would always be sparkling. Outshine them all with one of the most stunning looks of the season",
-    "image": "./images/image-brown.jpg",
-    "reviews": {
+      "id": "2",
+      "title": "Brown Bone straight",
+      "price": "$163",
+      "description": " Ensures a secure and comfortable fit.",
+      "image": "./images/bone-straight-brown.jpg",
+      "reviews": {
+        "rating": 9
+      }
+    },
+    {
+      "id": "3",
+      "title": "Maroon Diva wave",
+      "price": "$150",
+      "description": "In a perfect world something would always be sparkling. Outshine them all with one of the most stunning looks of the season",
+      "image": "./images/image-brown.jpg",
+      "reviews": {
         "rating": 8.4
-        
-    }
-},
-{
-    "id": "4",
-    "title": "Anita wave",
-    "price": "$60",
-    "description": "Enhance your look with the most natural cap and custom fiber around.",
-    "image": "/images/anita-wave.jpg",
-    "reviews": {
+      }
+    },
+    {
+      "id": "4",
+      "title": "Anita wave",
+      "price": "$60",
+      "description": "Enhance your look with the most natural cap and custom fiber around.",
+      "image": "/images/anita-wave.jpg",
+      "reviews": {
         "rating": 7.9
-        
-    }
-},
-{
-    "id": "5",
-    "title": "Water Curl 12A",
-    "price": "$28",
-    "description": "It is perfect! Light density and natural looking.",
-    "image": "./images/w-curl.jpg",
-    "reviews": {
+      }
+    },
+    {
+      "id": "5",
+      "title": "Water Curl 12A",
+      "price": "$28",
+      "description": "It is perfect! Light density and natural looking.",
+      "image": "./images/w-curl.jpg",
+      "reviews": {
         "rating": 5.5
-    
-    }
-},
-{
-    "id": "6",
-    "title": "Water Curl 20A",
-    "price": "$100",
-    "description": "Knots bleached, pre-plucked hairline.",
-    "image": "/images/water-curl.jpg",
-    "reviews": {
+      }
+    },
+    {
+      "id": "6",
+      "title": "Water Curl 20A",
+      "price": "$100",
+      "description": "Knots bleached, pre-plucked hairline.",
+      "image": "/images/water-curl.jpg",
+      "reviews": {
         "rating": 5.7
-    }
-},
-{
-    "id": "7",
-    "title": "Bob weave",
-    "price": "$20",
-    "description": "HD Lace",
-    "image": "https://images.unsplash.com/photo-1606859282527-a6e888c92867?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "reviews": {
+      }
+    },
+    {
+      "id": "7",
+      "title": "Bob weave",
+      "price": "$20",
+      "description": "HD Lace",
+      "image": "https://images.unsplash.com/photo-1606859282527-a6e888c92867?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "reviews": {
         "rating": 3.2
-       
-    }
-},
-{
-    "id": "8",
-    "title": "Blue Beauty Bob",
-    "price": "$35",
-    "description": "Glueless",
-    "image": "https://images.unsplash.com/photo-1559564071-dfa53d83b513?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "reviews": {
+      }
+    },
+    {
+      "id": "8",
+      "title": "Blue Beauty Bob",
+      "price": "$35",
+      "description": "Glueless",
+      "image": "https://images.unsplash.com/photo-1559564071-dfa53d83b513?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "reviews": {
         "rating": 7.5
-        }
-        
-},
-{
-    "id": "9",
-    "title": "Aro Curly",
-    "price": "$120",
-    "description": "Full Frontal",
-    "image": "https://plus.unsplash.com/premium_photo-1661964237903-e25525c73a0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "reviews": {
+      }
+    },
+    {
+      "id": "9",
+      "title": "Aro Curly",
+      "price": "$120",
+      "description": "Full Frontal",
+      "image": "https://plus.unsplash.com/premium_photo-1661964237903-e25525c73a0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "reviews": {
         "rating": 8.7
-        }
-        
-},
-{
-    "id": "10",
-    "title": "Rainbow Bone Straight",
-    "price": "$55",
-    "description": "Pre-plucked",
-    "image": "https://images.unsplash.com/photo-1595888433198-fc3fba4d48e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "reviews": {
+      }
+    },
+    {
+      "id": "10",
+      "title": "Rainbow Bone Straight",
+      "price": "$55",
+      "description": "Pre-plucked",
+      "image": "https://images.unsplash.com/photo-1595888433198-fc3fba4d48e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "reviews": {
         "rating": 2.5
-        
-    }
-    
-},
-{
-    "id": "11",
-    "title": "Ginger Bob Hair",
-    "price": "$140",
-    "description": "GINGER BLONDE | Medium Golden Blonde with Subtle Blonde Highlights",
-    "image": "https://media.istockphoto.com/id/1425302451/photo/beautiful-emotional-woman.jpg?s=612x612&w=0&k=20&c=virFxqBE1faHswx0q0ya3zzEP_XRtfCceBiNiLsybNs=",
-    "reviews": {
+      }
+    },
+    {
+      "id": "11",
+      "title": "Ginger Bob Hair",
+      "price": "$140",
+      "description": "GINGER BLONDE | Medium Golden Blonde with Subtle Blonde Highlights",
+      "image": "https://media.istockphoto.com/id/1425302451/photo/beautiful-emotional-woman.jpg?s=612x612&w=0&k=20&c=virFxqBE1faHswx0q0ya3zzEP_XRtfCceBiNiLsybNs=",
+      "reviews": {
         "rating": 6.5
+      }
+    },
+    {
+      "id": "20fe",
+      "name": "shoyu",
+      "email": "njerushirleen11@gmail.com"
+    },
+    {
+      "id": "caf9",
+      "name": "kinya",
+      "email": "shirleen.njeru@student.moringaschool.com"
+    },
+    {
+      "id": "fd52",
+      "name": "kinya",
+      "email": "njerushirleen11@gmail.com"
     }
-}
-    ]
+  ]
 }
