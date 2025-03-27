@@ -1,4 +1,4 @@
-const base_url = 'http://localhost:4000/wigs'
+const base_url = 'http://localhost:3000/wigs'
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch(base_url) 
@@ -21,5 +21,27 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         })
         .catch(error => console.error("Error fetching wigs:", error));
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const formContainer = document.createElement("div");
+    formContainer.innerHTML = `
+        <form id="simpleForm">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <p id="message"></p>
+    `;
+
+    document.body.appendChild(formContainer);
+
+    document.getElementById("simpleForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        document.getElementById("message").textContent = `Thank you for signing up`;
+    });
 });
 

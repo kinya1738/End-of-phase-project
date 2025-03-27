@@ -168,5 +168,12 @@ footer{
   color: gray;
   margin: 5px 0;
 }
+.price {
+  color: darkgray; 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-top: 10px;   
+ 
+}
 
 

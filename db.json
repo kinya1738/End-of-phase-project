@@ -9,6 +9,7 @@
             "reviews": {
                 "rating": 6.1
             }
+            
     },
     {
         "id": "2",
@@ -18,6 +19,7 @@
         "image": "./images/bone-straight-brown.jpg",
         "reviews": {
             "rating": 9.0
+            
         }
 },
 {
@@ -28,6 +30,7 @@
     "image": "./images/image-brown.jpg",
     "reviews": {
         "rating": 8.4
+        
     }
 },
 {
@@ -38,6 +41,7 @@
     "image": "/images/anita-wave.jpg",
     "reviews": {
         "rating": 7.9
+        
     }
 },
 {
@@ -48,6 +52,7 @@
     "image": "./images/w-curl.jpg",
     "reviews": {
         "rating": 5.5
+    
     }
 },
 {
@@ -68,6 +73,7 @@
     "image": "https://images.unsplash.com/photo-1606859282527-a6e888c92867?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "reviews": {
         "rating": 3.2
+       
     }
 },
 {
@@ -78,7 +84,8 @@
     "image": "https://images.unsplash.com/photo-1559564071-dfa53d83b513?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "reviews": {
         "rating": 7.5
-    }
+        }
+        
 },
 {
     "id": "9",
@@ -88,7 +95,8 @@
     "image": "https://plus.unsplash.com/premium_photo-1661964237903-e25525c73a0b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "reviews": {
         "rating": 8.7
-    }
+        }
+        
 },
 {
     "id": "10",
@@ -98,7 +106,9 @@
     "image": "https://images.unsplash.com/photo-1595888433198-fc3fba4d48e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "reviews": {
         "rating": 2.5
+        
     }
+    
 },
 {
     "id": "11",
