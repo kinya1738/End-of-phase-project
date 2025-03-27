@@ -111,19 +111,14 @@
       }
     },
     {
-      "id": "20fe",
-      "name": "shoyu",
-      "email": "njerushirleen11@gmail.com"
-    },
-    {
-      "id": "caf9",
-      "name": "kinya",
-      "email": "shirleen.njeru@student.moringaschool.com"
-    },
-    {
-      "id": "fd52",
-      "name": "kinya",
-      "email": "njerushirleen11@gmail.com"
+      "id": "f73b",
+      "title": "bone-straight",
+      "price": "$300",
+      "description": "perfect",
+      "image": "https://www.wigs.com/cdn/shop/files/4_Product_Page_Images_From_Ambassadors_-_2024-09-19T185531.319.jpg?v=1726863862&width=713",
+      "reviews": {
+        "rating": 0
+      }
     }
   ]
 }
