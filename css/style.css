@@ -95,8 +95,8 @@ h2{
   
 }
 footer{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: blue;
 }
 #clients button{
   background-color: white;
@@ -110,4 +110,12 @@ footer{
   background-color: aqua;
   color: black;
   transform: scale(1.05);
+}
+.footer-handles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+
 }
