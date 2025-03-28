@@ -1,14 +1,15 @@
-
-const base_url = 'https://end-of-phase-project-server-two.vercel.app/wigs'
+const base_url = 'https://end-of-phase-project-server-two.vercel.app/wigs';
 document.addEventListener("DOMContentLoaded", () => {
     displayWigs();
     createForm(); 
+    setupSearch();
 });
 
 function displayWigs() {
     fetch(base_url)
         .then(response => response.json())
         .then(data => {
+            console.log("Fetched Wigs:", data);
             const wigContainer = document.getElementById("wig-images");
             wigContainer.innerHTML = ""; 
 
@@ -23,9 +24,68 @@ function displayWigs() {
                     <button class="delete-btn" data-id="${wig.id}">Delete</button>
                 `;
                 wigContainer.appendChild(wigDiv);
+
+                const deleteButton = wigDiv.querySelector(".delete-btn");
+                deleteButton.addEventListener("click", () => deleteWig(wig.id, wigDiv)); 
             });
         })
         .catch(error => console.error("Error fetching wigs:", error));
+}
+
+function setupSearch() {
+    const searchInput = document.getElementById("search-input");
+    const searchButton = document.getElementById("search-button");
+
+    searchButton.addEventListener("click", () => {
+        const searchValue = searchInput.value.toLowerCase().trim();
+        console.log("Search Input:", searchValue); 
+
+        if (searchValue === "") {
+            console.warn("Search field is empty");
+            return;
+        }
+
+        fetch(base_url)
+            .then(response => response.json())
+            .then(data => {
+                const filteredWigs = data.filter(wig => 
+                    wig.title.toLowerCase().includes(searchValue)
+                );
+                displaySearchResults(filteredWigs);
+            })
+            .catch(error => console.error("Error filtering wigs:", error));
+    });
+}
+
+function displaySearchResults(wigs) {
+    const searchResultsContainer = document.getElementById("search-results");
+    searchResultsContainer.innerHTML = ""; 
+
+    if (wigs.length === 0) {
+        searchResultsContainer.innerHTML = "<p>No wigs found.</p>";
+        return;
+    }
+
+    wigs.forEach(wig => {
+        const wigDiv = document.createElement("div");
+        wigDiv.innerHTML = `
+            <img src="${wig.image}" alt="${wig.title}">
+            <h3>${wig.title}</h3>
+            <p>${wig.description}</p>
+            <div class="price">${wig.price}</div>
+            <div class="rating">Rating: ${wig.reviews?.rating ?? 'No rating available'}</div>
+            <button class="delete-btn" data-id="${wig.id}">Delete</button>
+        `;
+        const deleteButton = wigDiv.querySelector(".delete-btn");
+        deleteButton.addEventListener("click", () => deleteWig(wig.id, wigDiv));
+
+        searchResultsContainer.appendChild(wigDiv);
+    });
+}
+
+function deleteWigFromSearch(id, wigDiv) {
+    wigDiv.remove(); 
+    console.log(`Deleted wig with ID: ${id} from search results`);
 }
 
 function createForm() {
@@ -40,7 +100,6 @@ function createForm() {
             <button type="submit">Add Wig</button>
         </form>
     `;
-
     document.getElementById("wigForm").addEventListener("submit", addWig);
 }
 
@@ -68,8 +127,8 @@ function addWig(event) {
     .catch(error => console.error("Error adding wig:", error));
 }
 
-function deleteWig(id) {
-    fetch(`${base_url}/${wigId}`, {
+function deleteWig(id, wigDiv) {
+    fetch(`${base_url}/${id}`, {
         method: "DELETE"
     })
     .then(response => {
@@ -77,7 +136,8 @@ function deleteWig(id) {
         return response.json();
     })
     .then(() => {
-        displayWigs();
+        wigDiv.remove(); 
+        console.log(`Wig with ID ${id} deleted.`);
     })
     .catch(error => console.error("Error deleting wig:", error));
 }
