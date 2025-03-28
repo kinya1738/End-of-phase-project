@@ -1,136 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Satisfy&display=swap');
-  h1 {
-    font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight : 300;
-    font-style: normal;
-    color: purple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0%;
-   margin: 0%;
+
+ @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Satisfy&display=swap');
+
+body {
+  font-family: "Merienda", cursive;
+  margin: 0;
+  padding: 0;
+ }
+
+
+h1 {
+  font-weight: 700;
+  color: purple;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+h4 {
+  color: purple;
+  text-align: center;
+}
+
+#intro img {
+  width: 100px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 40px;
+  padding: 15px;
   }
-h2{
-  font-family: "Merienda", cursive;
-  font-optical-sizing: auto;
-  font-weight : 300;
-  font-style: normal;
-  color:black;
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
 }
-.h4{
-  font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight : 300; 
-     font-style: normal;
-    color: purple;
-    }
-#intro button{
-    background-color: white;
-    color: purple;
-    border: 2px solid purple;
-    padding: 2px 6px;
-    border-radius: 5px;
-    cursor: pointer;
+
+nav a:hover {
+  color: purple;
 }
-#intro button:hover {
+
+
+button {
   background-color: purple;
   color: white;
-  transform: scale(1.05);  
-}
-.slogan{
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.slogan button{
-  background-color: white;
-    color: black;
-    border: 2px solid black;
-    padding: 2px 6px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.slogan button:hover{
-  background-color: black;
-  color: white;
-  transform: scale(1.05);
-}
-.search-box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 20px;
-  
-}
-
-
-#intro img{
-  width: 100px;
-  height: fit-content;
-  display: flex;
-  justify-content: left;
-
-
-}
- nav{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: white;
-  font-weight: 700;
-  padding: 8px 15px;
-  letter-spacing: 1px;
-  gap: 20px;
-  flex-direction: row;
-}
-#clients img{
-  width: 300px;
-  height: 50vh;
-  justify-content: space-between;
-  gap: 50px;
-  padding: 0%;
-  align-items: center;
-  flex-direction: row;
-  
-}
-footer{
-  background-color: black;
-  color: lavender;
-  padding: 0% ;
-}
-#clients button{
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-  padding: 2px 6px;
+  border: none;
+  padding: 5px;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.3s;
 }
-#clients button:hover{
-  background-color: aqua;
-  color: black;
+
+button:hover {
+  background-color: darkviolet;
   transform: scale(1.05);
+  color: black;
 }
-.footer-handles{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  flex-direction: column;
-  font-size: xx-large;
-  color: whitesmoke;
-
-}
-
-.footer-container{
-  display: flex;
-  justify-content: space-between;
-  font-size: x-large;
-  }
-  body{
-    background-color: whitesmoke;
-  }
 
 #wig-images {
   display: flex;
@@ -140,59 +77,127 @@ footer{
   padding: 20px;
 }
 
-
 #wig-images div {
-  background-color: white;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
-  width: 150px; 
-  }
+  width: 300px; 
+  transition: transform 0.3s ease-in-out;
+}
+
+#wig-images div:hover {
+  transform: scale(1.05);
+  background-color: purple;
+}
 
 #wig-images img {
   width: 100%;
-  height: 200px; 
+  height: 250px; 
+  object-fit: cover;
   border-radius: 8px;
-} 
-
+}
 
 #wig-images h3 {
-  font-size: larger;
+  font-size: 18px;
   color: black;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#wig-images p {
+  font-size: 14px;
+  color: gray;
+  margin: 5px 0;
+}
+
+.price {
+  color: darkgray;
+  font-size: 18px;
+  font-weight: bold;
   margin-top: 10px;
 }
 
 
-#wig-images p {
-  font-size: small;
-  color: gray;
+#simpleForm {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  }
+
+#simpleForm h2 {
+  color: white;
+  text-align: center;
+}
+
+#simpleForm input {
+  width: 100%;
+  padding: 8px;
   margin: 5px 0;
+  border-radius: 5px;
 }
-.price {
-  color: darkgray; 
-  font-size: 18px; 
-  font-weight: bold; 
-  margin-top: 10px;   
- 
+
+#simpleForm button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: purple;
 }
-#simpleForm{
-  display: flex;
-  flex-direction: column;
-  font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight : 300;
-    font-style: normal;
-    background-color: black;
-    gap: 0;
-    padding: 0%;
+
+#simpleForm button:hover {
+  background-color: darkblue;
   
 }
-#simpleForm h2{
-  color: antiquewhite;
-} 
-#simpleForm button:hover{
-  background-color: darkblue;
-  color: black;
+
+
+.clients-section {
+  text-align: center;
+  padding: 20px;
 }
 
+#clients {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
+#clients img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#clients button{
+  width: 100px;
+  height: 5vh;
+  display: flex;
+  justify-content: baseline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-handles a {
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.footer-rights {
+  margin-top: 10px;
+  font-size: 14px;
+}
