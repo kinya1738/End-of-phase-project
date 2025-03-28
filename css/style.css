@@ -215,3 +215,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.video{
+  width: 10px;
+  gap: 40px;
+  display: flex;
+  height: 100vh;
+}
